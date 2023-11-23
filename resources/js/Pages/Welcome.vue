@@ -138,7 +138,7 @@ defineProps({
                             <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">Laracasts</h2>
 
                             <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-                                Laracasts offers thousands of video tutorials on Laravel, PHP, and JavaScript
+                                AA Laracasts offers thousands of video tutorials on Laravel, PHP, and JavaScript
                                 development. Check them out, see for yourself, and massively level up your development
                                 skills in the process.
                             </p>
@@ -185,6 +185,7 @@ defineProps({
                             <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">Laravel News</h2>
 
                             <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
+                                Pogi ako
                                 Laravel News is a community driven portal and newsletter aggregating all of the latest
                                 and most important news in the Laravel ecosystem, including new package releases and
                                 tutorials.

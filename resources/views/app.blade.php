@@ -6,6 +6,14 @@
 
         <title inertia>{{ config('app.name', 'Laravel') }}</title>
 
+        <link rel="icon" type="image/png" href="/assets/img/favicon.png" />
+
+        <meta name="theme-color" content="#5540af" />
+        <meta property="og:site_name" content="Atom Template" />
+        <meta property="og:image" content="//assets/img/social.jpg" />
+        <meta name="twitter:card" content="summary_large_image" />
+
+        
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />

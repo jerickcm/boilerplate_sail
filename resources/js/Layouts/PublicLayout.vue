@@ -1,32 +1,27 @@
 <script setup>
-import { Link } from '@inertiajs/vue3'
-import Footer from "../Components/Footer/footer.vue"
+import { Link } from "@inertiajs/vue3";
+import Footer from "../Components/Footer/footer.vue";
 </script>
 
 <template>
-    <div
-         class="min-h-screen bg-gray-100"
-    >
-        <div
-        >
-            <div id="holder">
-                <div id="body">
+    <div class="min-h-screen bg-gray-100">
+        <div>
+            <!-- <div id="holder"> -->
+                <!-- <div id="body"> -->
                     <main>
-                        <slot />
+                        
                     </main>
-                    <div style="min-height: 460px"></div>
-                </div>
+                    <!-- <div style="min-height: 460px"></div> -->
+                <!-- </div> -->
+                <slot />
                 <Footer />
-            </div>
-     
+            <!-- </div> -->
         </div>
     </div>
 </template>
 
-
 <style scoped>
-.second-nav {
-    /* background-image: url("../assets/images/bg.png"); */
+/* .second-nav {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -39,7 +34,7 @@ import Footer from "../Components/Footer/footer.vue"
 }
 
 #body {
-    padding-bottom: 100px; /* height of footer */
+    padding-bottom: 100px;
 }
 
 footer {
@@ -48,5 +43,5 @@ footer {
     position: absolute;
     left: 0;
     bottom: 0;
-}
+} */
 </style>
